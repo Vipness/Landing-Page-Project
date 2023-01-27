@@ -20,6 +20,17 @@ header {
     align-items: center;
 }
 
+header>h2 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0 0 10px 0;
+}
+
 .header-links {
     list-style-type: none;
     margin: 0;
@@ -29,7 +40,31 @@ header {
     margin-left: auto;
 }
 
-.secondary-text {
-    font-size: 18px;
-    color: #e5e7eb;
+.hero-main {
+    display: flex;
+    margin: 70px 0 100px;
+}
+
+.hero-text,
+.image {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.hero-text>h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+    line-height: 1.05em;
+    margin-bottom: 5px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }
