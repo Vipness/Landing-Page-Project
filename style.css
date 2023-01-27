@@ -23,6 +23,7 @@ header {
 header>h2 {
     color: #f9faf8;
     font-size: 24px;
+    margin-top: 10px;
 }
 
 .secondary-text {
@@ -43,6 +44,7 @@ header>h2 {
 .hero-main {
     display: flex;
     margin: 70px 0 100px;
+    gap: 30px;
 }
 
 .hero-text,
@@ -67,4 +69,11 @@ header>h2 {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+}
+
+.image {
+    background-color: rgba(121, 121, 121, 0.767);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
