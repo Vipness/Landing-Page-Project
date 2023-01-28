@@ -79,6 +79,7 @@ header>h2 {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    text-align: center;
 }
 
 .info-container {
@@ -117,7 +118,7 @@ header>h2 {
     margin-bottom: 5px;
 }
 
-.box-info>.text {
+.box-info>.box-text {
     text-align: center;
 }
 
@@ -148,4 +149,38 @@ header>h2 {
     font-weight: bold;
     margin-left: auto;
     margin-right: 10px;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.sign-up-box {
+    width: 60%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    gap: 20px;
+}
+
+.sign-up-header {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+}
+
+.sign-up-secondary {
+    font-size: 16px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.sign-up-box .sign-up {
+    border: 2px solid #e5e7eb;
 }
