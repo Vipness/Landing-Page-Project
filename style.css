@@ -181,9 +181,14 @@ header {
 }
 
 .process-img {
+    width: 400px;
+    height: 400px;
+    object-fit: none;
+    object-position: 60% 50%;
+    border-radius: 50%;
     position: relative;
-    bottom: 100px;
-    left: 100px;
+    bottom: 60px;
+    left: 60px;
 }
 
 .sign-up-section {
@@ -214,10 +219,20 @@ header {
     font-size: 16px;
     color: #e5e7eb;
     margin: 0;
+    font-style: normal;
+}
+
+.sign-up-secondary a {
+    color: #f9faf8;
 }
 
 .sign-up-box .sign-up {
     border: 2px solid #e5e7eb;
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: white;
 }
 
 footer {
