@@ -20,18 +20,13 @@ header {
     display: flex;
     align-items: center;
     gap: 25px;
-}
-
-header>h2 {
-    color: #f9faf8;
-    font-size: 24px;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0 0 10px 0;
+    margin: 10px 0;
 }
 
 .header-links {
@@ -39,8 +34,17 @@ header>h2 {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 25px;
+    gap: 15px;
     margin-left: auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-links a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-main {
@@ -60,26 +64,26 @@ header>h2 {
     font-weight: bold;
     color: #f9faf8;
     margin: 0;
-    line-height: 1.05em;
+    line-height: 1.1em;
     margin-bottom: 5px;
 }
 
 .sign-up {
     background-color: #3882f6;
-    padding: 5px 25px;
+    padding: 10px 25px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .image {
     background-color: rgba(121, 121, 121, 0.767);
     display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 10px;
-    text-align: center;
+    background-image: url(http://praktischlean.com/wp-content/uploads/2021/05/hero-bg.jpg);
+    background-size: cover;
 }
 
 .info-container {
@@ -97,6 +101,7 @@ header>h2 {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    text-transform: uppercase;
 }
 
 .boxes {
