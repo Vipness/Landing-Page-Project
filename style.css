@@ -120,3 +120,32 @@ header>h2 {
 .box-info>.text {
     text-align: center;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    padding: 50px 0;
+}
+
+.quote-box {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.1em;
+    margin-bottom: 0;
+}
+
+.quote-author {
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 10px;
+}
