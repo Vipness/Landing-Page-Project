@@ -31,7 +31,7 @@ header {
 .secondary-text {
     font-size: 18px;
     color: #e5e7eb;
-    margin: 10px 0;
+    margin: 10px 0 15px 0;
 }
 
 .header-links {
@@ -83,7 +83,7 @@ header {
 
 .image {
     flex: 2;
-    height: 320px;
+    height: 280px;
     min-width: 200px;
 }
 
